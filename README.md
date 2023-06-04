@@ -11,7 +11,7 @@ https://datatracker.ietf.org/wg/bpf/about/) working group.
 
 This repository contains files for [IETF](https://www.ietf.org/) working group
 chairs and participants to use, with core files initially cloned from the
-[/ietf/repo-files](/ietf/repo-files) repository.
+[/ietf/repo-files](https://github.com/ietf/repo-files) repository.
 
   * [`LICENSE.md`](LICENSE.md) is the official boilerplate text to be included
     in all IETF repositories, per the [IETF Trust](
