@@ -1,0 +1,49 @@
+eBPF (which is no longer an acronym for anything), also commonly
+referred to as BPF, is a technology with origins in the Linux kernel
+that can run untrusted programs in a privileged context such as the
+operating system kernel.
+
+BPF is increasingly being used beyond just the Linux kernel, with
+implementations in network interface cards, Microsoft Windows, etc.
+
+The BPF working group is initially tasked with documenting the existing
+state of the BPF ecosystem, and creating a clear process for extensions,
+including initial extensions that are widely useful and showcase the
+process.  The working group will not adopt work focused on new versions
+or extensions until all documents required to capture the existing
+goals, particularly those in the bullets below, have completed IESG
+approval.
+
+The working group will produce one or more documents on the following
+work item topics (with intended document status annotations, e.g.
+[PS] Proposed Standard and [I] Informational):
+
+* [PS] the BPF instruction set architecture (ISA) that defines the
+  instructions and low-level virtual machine for BPF programs,
+
+* [I] verifier expectations and building blocks for allowing safe
+  execution of untrusted BPF programs,
+
+* [PS] the BPF Type Format (BTF) that defines debug information and
+  introspection capabilities for BPF programs,
+
+* [I] one or more documents that recommend conventions and guidelines
+  for producing portable BPF program binaries,
+
+* [PS] cross-platform map types allowing native data structure access
+  from BPF programs,
+
+* [PS] cross-platform helper functions, e.g., for manipulation of maps,
+
+* [PS] cross-platform BPF program types that define the higher level
+  execution environment for BPF programs, and
+
+* [I] an architecture and framework document.
+
+The BPF working group shall actively engage the BPF Foundation steering
+committee and the broader implementation community to ensure inclusion
+in the IETF's consensus-driven process.
+
+The working group is intended to only work on cross-platform aspects of
+BPF that are useful to the wider internet community and are not
+otherwise operating system or platform specific.
